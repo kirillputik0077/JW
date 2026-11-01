@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="jwhybrid"
+version="1.0.0"
+displayName="Jurassic Hybrid"
+description='''Гибрид Jurassic World Alive и Jurassic World The Game: сканируй диких динозавров, собирай ДНК, создавай динозавров за монеты и зарабатывай на парке.'''
+
+[[dependencies.jwhybrid]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.jwhybrid]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
